@@ -1,0 +1,57 @@
+{
+  "best_model": "XGBoost",
+  "best_r2": 0.9735,
+  "best_mae": 10.9513,
+  "best_rmse": 16.0472,
+  "best_mape": 10.4786,
+  "rmse_reduction_pct": 44.84,
+  "train_rows": 9780,
+  "test_rows": 900,
+  "n_features": 39,
+  "baseline": {
+    "LinearRegression": {
+      "model": "LinearRegression",
+      "mae": 17.0079,
+      "rmse": 29.0914,
+      "r2": 0.9129,
+      "mape": 15.4519
+    },
+    "RandomForest": {
+      "model": "RandomForest (base)",
+      "mae": 12.1854,
+      "rmse": 18.5433,
+      "r2": 0.9646,
+      "mape": 11.5815
+    },
+    "XGBoost": {
+      "model": "XGBoost (base)",
+      "mae": 10.8501,
+      "rmse": 16.2507,
+      "r2": 0.9728,
+      "mape": 10.4364
+    }
+  },
+  "tuned": {
+    "LinearRegression": {
+      "model": "LinearRegression",
+      "mae": 17.0079,
+      "rmse": 29.0914,
+      "r2": 0.9129,
+      "mape": 15.4519
+    },
+    "RandomForest": {
+      "model": "RandomForest (tuned)",
+      "mae": 12.8358,
+      "rmse": 19.9614,
+      "r2": 0.959,
+      "mape": 12.0935
+    },
+    "XGBoost": {
+      "model": "XGBoost (tuned)",
+      "mae": 10.9513,
+      "rmse": 16.0472,
+      "r2": 0.9735,
+      "mape": 10.4786
+    }
+  }
+}
